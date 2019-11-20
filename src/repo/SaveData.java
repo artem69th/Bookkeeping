@@ -29,8 +29,8 @@ public class SaveData {
             if (currency.isBasic()) {
                 return currency;
             }
-            return new Currency();
         }
+        return new Currency();
     }
 
     public List<Account> getAccounts() {
