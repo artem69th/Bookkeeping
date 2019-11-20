@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.prefs.Preferences;
 
-public class Settings {
+final public class Settings {
 
     public static final File ROBOTO_FONT = new File("resources/fonts/Roboto-Light.ttf");
     public static final File SAVE_DIR = new File("resources/saves/");
